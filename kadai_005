@@ -1,0 +1,53 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "#値を設定\n",
+        "top=10      #上辺(cm)\n",
+        "bottom=20   #下辺（㎝）\n",
+        "heigt=5     #高さ(cm)\n",
+        "\n",
+        "#面積の計算\n",
+        "area=(top+bottom)*heigt/2\n",
+        "\n",
+        "#結果の表示\n",
+        "print(\"台形の面積は\",area,\"㎠です\")\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WNTTVONGhh0X",
+        "outputId": "8798c24e-8142-4523-cc9c-c6955de72e5c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "台形の面積は 75.0 ㎠です\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
